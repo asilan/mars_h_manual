@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1500"
+   height="1000"
+   viewBox="0 0 1500 1000"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg52"
+   sodipodi:docname="robot-power-on-led-guide.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview52"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.40465791"
+     inkscape:cx="756.19429"
+     inkscape:cy="751.25185"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g52" />
+  <title
+     id="title">Robot power-on sequence and power-hub LED indications</title>
+  <desc
+     id="desc">Seven numbered startup stages show Hold and clear area, four-second precharge, motor contactor click, five-second safety wait, CAN node checks, steering homing, and ready state. A color key explains the power-hub LED.</desc>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <style
+       id="style1">.bg{fill:#eef3f6}.box{fill:#fff;stroke:#567487;stroke-width:3}.head{font:700 30px Arial;fill:#17384d}.step{font:700 23px Arial;fill:#17384d}.txt{font:18px Arial;fill:#405967}.small{font:16px Arial;fill:#405967}.num{fill:#e87318}.n{font:700 20px Arial;fill:#fff}.arrow{stroke:#24577a;stroke-width:5;fill:none}.sw{stroke:#567487;stroke-width:2}</style>
+    <marker
+       id="arr"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0v6l9-3z"
+         fill="#24577a"
+         id="path1" />
+    </marker>
+  </defs>
+  <rect
+     class="bg"
+     width="1500"
+     height="1000"
+     rx="28"
+     id="rect1" />
+  <text
+     class="head"
+     x="45"
+     y="55"
+     id="text1">ROBOT POWER-ON · EXPECTED BEHAVIOR</text>
+  <g
+     transform="translate(45 95)"
+     id="g6">
+    <rect
+       class="box"
+       width="300"
+       height="175"
+       rx="16"
+       id="rect2" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="20"
+       id="circle2" />
+    <text
+       class="n"
+       x="24"
+       y="37"
+       id="text2">1</text>
+    <text
+       class="step"
+       x="60"
+       y="38"
+       id="text3">Hold and clear</text>
+    <text
+       class="txt"
+       x="22"
+       y="78"
+       id="text4">UVC Off/Disarmed</text>
+    <text
+       class="txt"
+       x="22"
+       y="108"
+       id="text5">Hands clear of wheels</text>
+    <text
+       class="txt"
+       x="22"
+       y="138"
+       id="text6">LED may begin dark</text>
+  </g>
+  <g
+     transform="translate(405 95)"
+     id="g11">
+    <rect
+       class="box"
+       width="300"
+       height="175"
+       rx="16"
+       id="rect6" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="20"
+       id="circle6" />
+    <text
+       class="n"
+       x="24"
+       y="37"
+       id="text7">2</text>
+    <text
+       class="step"
+       x="60"
+       y="38"
+       id="text8">Precharge</text>
+    <text
+       class="txt"
+       x="22"
+       y="78"
+       id="text9">Precharge relay closes</text>
+    <text
+       class="txt"
+       x="22"
+       y="108"
+       id="text10">Waits about 4 seconds</text>
+    <text
+       class="txt"
+       x="22"
+       y="138"
+       id="text11">LED: solid yellow</text>
+  </g>
+  <g
+     transform="translate(765 95)"
+     id="g16">
+    <rect
+       class="box"
+       width="300"
+       height="175"
+       rx="16"
+       id="rect11" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="20"
+       id="circle11" />
+    <text
+       class="n"
+       x="24"
+       y="37"
+       id="text12">3</text>
+    <text
+       class="step"
+       x="60"
+       y="38"
+       id="text13">Contactor click</text>
+    <text
+       class="txt"
+       x="22"
+       y="78"
+       id="text14">Main motor contactor closes</text>
+    <text
+       class="txt"
+       x="22"
+       y="108"
+       id="text15">One firm click is normal</text>
+    <text
+       class="txt"
+       x="22"
+       y="138"
+       id="text16">No chatter or arcing</text>
+  </g>
+  <g
+     transform="translate(1125 95)"
+     id="g21">
+    <rect
+       class="box"
+       width="330"
+       height="175"
+       rx="16"
+       id="rect16" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="20"
+       id="circle16" />
+    <text
+       class="n"
+       x="24"
+       y="37"
+       id="text17">4</text>
+    <text
+       class="step"
+       x="60"
+       y="38"
+       id="text18">Safety wait</text>
+    <text
+       class="txt"
+       x="22"
+       y="78"
+       id="text19">Precharge relay releases</text>
+    <text
+       class="txt"
+       x="22"
+       y="108"
+       id="text20">About 5 seconds</text>
+    <text
+       class="txt"
+       x="22"
+       y="138"
+       id="text21">E-stop monitored</text>
+  </g>
+  <g
+     transform="translate(765 340)"
+     id="g26">
+    <rect
+       class="box"
+       width="690"
+       height="180"
+       rx="16"
+       id="rect21" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="20"
+       id="circle21" />
+    <text
+       class="n"
+       x="24"
+       y="37"
+       id="text22">5</text>
+    <text
+       class="step"
+       x="60"
+       y="38"
+       id="text23">CAN checks · 500 kbit/s</text>
+    <text
+       class="txt"
+       x="22"
+       y="78"
+       id="text24">Motor nodes 1, 2, 3 and 4 must report</text>
+    <text
+       class="txt"
+       x="22"
+       y="110"
+       id="text25">Robot slave node 10 must report</text>
+    <text
+       class="txt"
+       x="22"
+       y="142"
+       id="text26">Failure: contactor opens · LED flashes amber</text>
+  </g>
+  <g
+     transform="translate(405 340)"
+     id="g31">
+    <rect
+       class="box"
+       width="300"
+       height="180"
+       rx="16"
+       id="rect26" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="20"
+       id="circle26" />
+    <text
+       class="n"
+       x="24"
+       y="37"
+       id="text27">6</text>
+    <text
+       class="step"
+       x="60"
+       y="38"
+       id="text28">Steering homes</text>
+    <text
+       class="txt"
+       x="22"
+       y="78"
+       id="text29">Nodes 1 and 2 move</text>
+    <text
+       class="txt"
+       x="22"
+       y="110"
+       id="text30">Parallel homing</text>
+    <text
+       class="txt"
+       x="22"
+       y="142"
+       id="text31">Keep clear; do not drive</text>
+  </g>
+  <g
+     transform="translate(45 340)"
+     id="g36">
+    <rect
+       class="box"
+       width="300"
+       height="180"
+       rx="16"
+       id="rect31" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="20"
+       id="circle31" />
+    <text
+       class="n"
+       x="24"
+       y="37"
+       id="text32">7</text>
+    <text
+       class="step"
+       x="60"
+       y="38"
+       id="text33">Ready</text>
+    <text
+       class="txt"
+       x="22"
+       y="78"
+       id="text34">All motors initialized</text>
+    <text
+       class="txt"
+       x="22"
+       y="110"
+       id="text35">CAN becomes Operational</text>
+    <text
+       class="txt"
+       x="22"
+       y="142"
+       id="text36">Idle LED pulses yellow</text>
+  </g>
+  <text
+     class="head"
+     x="45"
+     y="600"
+     id="text37">POWER-HUB LED · NODE 14 (0x0E)</text>
+  <g
+     transform="translate(45 640)"
+     id="g52">
+    <rect
+       class="box"
+       width="1410"
+       height="285"
+       rx="18"
+       id="rect37" />
+    <circle
+       class="sw"
+       fill="#ffd900"
+       cx="60"
+       cy="55"
+       r="24"
+       id="circle37" />
+    <text
+       class="step"
+       x="100"
+       y="62"
+       id="text38">Solid yellow</text>
+    <text
+       class="txt"
+       x="310"
+       y="62"
+       id="text39">Startup, precharge, node checks or homing in progress</text>
+    <circle
+       class="sw"
+       fill="#ffbf00"
+       cx="60"
+       cy="120"
+       r="24"
+       id="circle39" />
+    <text
+       class="step"
+       x="100"
+       y="127"
+       id="text40">Pulsing yellow</text>
+    <text
+       class="txt"
+       x="310"
+       y="127"
+       id="text41">Startup complete; robot connected and idle</text>
+    <circle
+       class="sw"
+       fill="#1685ff"
+       cx="60"
+       cy="185"
+       r="24"
+       id="circle41" />
+    <text
+       class="step"
+       x="100"
+       y="192"
+       id="text42">Breathing blue</text>
+    <text
+       class="txt"
+       x="310"
+       y="192"
+       id="text43">Robot running with a nonzero motion command</text>
+    <circle
+       class="sw"
+       fill="#ff8200"
+       cx="820"
+       cy="55"
+       r="24"
+       id="circle43" />
+    <text
+       class="step"
+       x="860"
+       y="62"
+       id="text44"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:23px;line-height:normal;font-family:Arial">Flashing amber</text>
+    <text
+       class="txt"
+       x="1095"
+       y="62"
+       id="text45"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial">Startup fault; do not operate</text>
+    <circle
+       class="sw"
+       fill="#ff0033"
+       cx="820"
+       cy="120"
+       r="24"
+       id="circle45" />
+    <text
+       class="step"
+       x="860"
+       y="127"
+       id="text46"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:23px;line-height:normal;font-family:Arial">Solid red</text>
+    <text
+       class="txt"
+       x="1095"
+       y="127"
+       id="text47"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial">E-stop or CAN emergency</text>
+    <circle
+       class="sw"
+       fill="#ff00d4"
+       cx="820"
+       cy="185"
+       r="24"
+       id="circle47" />
+    <text
+       class="step"
+       x="860"
+       y="192"
+       id="text48"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:23px;line-height:normal;font-family:Arial">Blinking magenta</text>
+    <text
+       class="txt"
+       x="1095"
+       y="192"
+       id="text49"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial">Operator-control link lost</text>
+    <circle
+       class="sw"
+       fill="#ffffff"
+       cx="820"
+       cy="250"
+       r="24"
+       id="circle49" />
+    <text
+       class="step"
+       x="860"
+       y="257"
+       id="text50"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:23px;line-height:normal;font-family:Arial">White</text>
+    <text
+       class="txt"
+       x="1095"
+       y="257"
+       id="text51"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial">Night mode or Morse service mode</text>
+    <text
+       class="small"
+       x="22"
+       y="257"
+       id="text52">Safety priority: red E-stop → flashing amber fault → night override → startup → link lost → idle → running.</text>
+  </g>
+  <path
+     class="arrow"
+     marker-end="url(#arr)"
+     d="M345 180H395"
+     id="path6"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="arrow"
+     marker-end="url(#arr)"
+     d="M705 180H755"
+     id="path11"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="arrow"
+     marker-end="url(#arr)"
+     d="M1065 180H1115"
+     id="path16"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="arrow"
+     marker-end="url(#arr)"
+     d="m 1290,270 v 33 h -218.0508 v 25.98306"
+     id="path21"
+     style="marker-end:url(#Triangle)"
+     sodipodi:nodetypes="cccc" />
+  <path
+     class="arrow"
+     marker-end="url(#arr)"
+     d="M765 430H715"
+     id="path26"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="arrow"
+     marker-end="url(#arr)"
+     d="M405 430H355"
+     id="path31"
+     style="marker-end:url(#Triangle)" />
+</svg>

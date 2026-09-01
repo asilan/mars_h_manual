@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="920"
+   height="300"
+   viewBox="0 0 920 300"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="manual-navigation-buttons.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.71521739"
+     inkscape:cx="460"
+     inkscape:cy="149.60486"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg15" />
+  <title
+     id="title">Navigation and waypoint buttons</title>
+  <desc
+     id="desc">Diagram showing mission, navigation, and waypoint editing buttons.</desc>
+  <rect
+     width="920"
+     height="300"
+     rx="18"
+     fill="#eef3ef"
+     id="rect1" />
+  <rect
+     x="36.013458"
+     y="34.013458"
+     width="391.98755"
+     height="242.55667"
+     rx="13.999556"
+     fill="#ffffff"
+     stroke="#d8e1dc"
+     id="rect2"
+     style="stroke-width:1.02692" />
+  <rect
+     x="491.99899"
+     y="34.013458"
+     width="391.98755"
+     height="242.55667"
+     rx="13.999556"
+     fill="#ffffff"
+     stroke="#d8e1dc"
+     id="rect3"
+     style="stroke-width:1.02692" />
+  <text
+     x="60"
+     y="68"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="800"
+     fill="#172126"
+     id="text3">Robot Control</text>
+  <text
+     x="516"
+     y="68"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="800"
+     fill="#172126"
+     id="text4">Navigation Editing</text>
+  <g
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="700"
+     text-anchor="middle"
+     id="g15">
+    <rect
+       x="60"
+       y="92"
+       width="160"
+       height="44"
+       rx="8"
+       fill="#4d6874"
+       id="rect4" />
+    <text
+       x="140"
+       y="120"
+       fill="#fff"
+       id="text5">Load Mission</text>
+    <rect
+       x="236"
+       y="92"
+       width="160"
+       height="44"
+       rx="8"
+       fill="#1f6f46"
+       id="rect5" />
+    <text
+       x="316"
+       y="120"
+       fill="#fff"
+       id="text6">Upload Mission</text>
+    <rect
+       x="60"
+       y="154"
+       width="160"
+       height="44"
+       rx="8"
+       fill="#1f6f46"
+       id="rect6" />
+    <text
+       x="140"
+       y="182"
+       fill="#fff"
+       id="text7">Start</text>
+    <rect
+       x="236"
+       y="154"
+       width="160"
+       height="44"
+       rx="8"
+       fill="#e5a900"
+       id="rect7" />
+    <text
+       x="316"
+       y="182"
+       fill="#fff"
+       id="text8">Pause / Resume</text>
+    <rect
+       x="148"
+       y="216"
+       width="160"
+       height="44"
+       rx="8"
+       fill="#c94f3d"
+       id="rect8" />
+    <text
+       x="228"
+       y="244"
+       fill="#fff"
+       id="text9">Stop</text>
+    <rect
+       x="516"
+       y="92"
+       width="150"
+       height="44"
+       rx="8"
+       fill="#1f6f46"
+       id="rect9" />
+    <text
+       x="591"
+       y="120"
+       fill="#fff"
+       id="text10">Add</text>
+    <rect
+       x="690"
+       y="92"
+       width="150"
+       height="44"
+       rx="8"
+       fill="#c94f3d"
+       id="rect10" />
+    <text
+       x="765"
+       y="120"
+       fill="#fff"
+       id="text11">Delete</text>
+    <rect
+       x="516"
+       y="154"
+       width="150"
+       height="44"
+       rx="8"
+       fill="#c94f3d"
+       id="rect11" />
+    <text
+       x="591"
+       y="182"
+       fill="#fff"
+       id="text12">Clear</text>
+    <rect
+       x="690"
+       y="154"
+       width="150"
+       height="44"
+       rx="8"
+       fill="#e5a900"
+       id="rect12" />
+    <text
+       x="765"
+       y="182"
+       fill="#fff"
+       id="text13">Move Up/Down</text>
+    <rect
+       x="516"
+       y="216"
+       width="150"
+       height="44"
+       rx="8"
+       fill="#4d6874"
+       id="rect13" />
+    <text
+       x="591"
+       y="244"
+       fill="#fff"
+       id="text14">Load</text>
+    <rect
+       x="690"
+       y="216"
+       width="150"
+       height="44"
+       rx="8"
+       fill="#1f6f46"
+       id="rect14" />
+    <text
+       x="765"
+       y="244"
+       fill="#fff"
+       id="text15">Save</text>
+  </g>
+</svg>

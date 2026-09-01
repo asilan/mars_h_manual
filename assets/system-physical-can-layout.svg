@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1500"
+   height="1050"
+   viewBox="0 0 1500 1050"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg49"
+   sodipodi:docname="system-physical-can-layout.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false"
+     inkscape:zoom="0.37255599"
+     inkscape:cx="281.83683"
+     inkscape:cy="824.03721"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg49" />
+  <title
+     id="title">MARS robot system physical connections and verified CAN nodes</title>
+  <desc
+     id="desc">Radio, common robot CAN backbone, side power and CAN ports, navigation PoE, UVC relay 5 volt supply, and UVC AC power paths.</desc>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <style
+       id="style1">.bg{fill:#eef3f6}.box{fill:#fff;stroke:#567487;stroke-width:3}.robot{fill:#eaf3f8;stroke:#24577a;stroke-width:4}.uv{fill:#fff2da;stroke:#df741a;stroke-width:4}.nav{fill:#e6f5eb;stroke:#268653;stroke-width:4}.head{font:700 25px Arial;fill:#17384d}.txt{font:18px Arial;fill:#405967}.small{font:16px Arial;fill:#405967}.radio{stroke:#1d76a6;stroke-width:5;stroke-dasharray:12 9;fill:none}.can{stroke:#9a6500;stroke-width:7;fill:none}.power{stroke:#c43b32;stroke-width:6;fill:none}.eth{stroke:#238452;stroke-width:6;fill:none}.label{font:700 16px Arial;fill:#17384d}</style>
+    <marker
+       id="blue"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0v6l9-3z"
+         fill="#1d76a6"
+         id="path1" />
+    </marker>
+    <marker
+       id="green"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0v6l9-3z"
+         fill="#238452"
+         id="path2" />
+    </marker>
+  </defs>
+  <rect
+     class="bg"
+     width="1500"
+     height="1050"
+     rx="28"
+     id="rect2" />
+  <text
+     class="head"
+     x="42"
+     y="48"
+     font-size="32"
+     id="text2">MARS ROBOT SYSTEM · PHYSICAL CONNECTIONS AND CAN NODES</text>
+  <g
+     transform="translate(40 82)"
+     id="g6">
+    <rect
+       class="box"
+       width="310"
+       height="155"
+       rx="17"
+       id="rect3" />
+    <text
+       class="head"
+       x="20"
+       y="38"
+       id="text3">HANDHELD</text>
+    <text
+       class="txt"
+       x="20"
+       y="75"
+       id="text4">RC LoRa commands/status</text>
+    <text
+       class="txt"
+       x="20"
+       y="108"
+       id="text5">Custom: separate RTK radio</text>
+    <text
+       class="small"
+       x="20"
+       y="134"
+       id="text6">Not a CAN node</text>
+  </g>
+  <text
+     class="label"
+     x="385"
+     y="137"
+     id="text7">RC LoRa</text>
+  <g
+     transform="translate(40 292)"
+     id="g11">
+    <rect
+       class="box"
+       width="310"
+       height="170"
+       rx="17"
+       id="rect7" />
+    <text
+       class="head"
+       x="20"
+       y="38"
+       id="text8">RTK BASE</text>
+    <text
+       class="txt"
+       x="20"
+       y="75"
+       id="text9">LoRa/NTRIP corrections</text>
+    <text
+       class="txt"
+       x="20"
+       y="108"
+       id="text10">Default CAN ID 21 only if</text>
+    <text
+       class="txt"
+       x="20"
+       y="135"
+       id="text11">connected to a CAN system</text>
+  </g>
+  <text
+     class="label"
+     x="367"
+     y="356"
+     id="text12">RTK corrections</text>
+  <g
+     transform="translate(500 75)"
+     id="g32">
+    <rect
+       class="robot"
+       width="960"
+       height="535"
+       rx="20"
+       id="rect12" />
+    <text
+       class="head"
+       x="25"
+       y="42"
+       id="text13">ROBOT CHASSIS · INSTALLED CAN BACKBONE</text>
+    <rect
+       class="box"
+       x="25"
+       y="72"
+       width="270"
+       height="100"
+       rx="14"
+       id="rect13" />
+    <text
+       class="head"
+       x="43"
+       y="108"
+       id="text14">Master controller</text>
+    <text
+       class="txt"
+       x="43"
+       y="140"
+       id="text15">Node 11 · 0x0B</text>
+    <rect
+       class="box"
+       x="335"
+       y="72"
+       width="270"
+       height="100"
+       rx="14"
+       id="rect15" />
+    <text
+       class="head"
+       x="353"
+       y="108"
+       id="text16">Slave controller</text>
+    <text
+       class="txt"
+       x="353"
+       y="140"
+       id="text17">Node 10 · 0x0A</text>
+    <rect
+       class="box"
+       x="645"
+       y="72"
+       width="285"
+       height="100"
+       rx="14"
+       id="rect17" />
+    <text
+       class="head"
+       x="663"
+       y="108"
+       id="text18">Motor controllers</text>
+    <text
+       class="txt"
+       x="663"
+       y="140"
+       id="text19">Nodes 1, 2, 3, 4</text>
+    <rect
+       class="box"
+       x="25"
+       y="225"
+       width="270"
+       height="100"
+       rx="14"
+       id="rect19" />
+    <text
+       class="head"
+       x="43"
+       y="261"
+       id="text20">GNSS rover</text>
+    <text
+       class="txt"
+       x="43"
+       y="293"
+       id="text21">Node 20 · 5 V CAN port</text>
+    <rect
+       class="uv"
+       x="335"
+       y="225"
+       width="270"
+       height="100"
+       rx="14"
+       id="rect21" />
+    <text
+       class="head"
+       x="353"
+       y="261"
+       id="text22">UVC relay</text>
+    <text
+       class="txt"
+       x="353"
+       y="293"
+       id="text23">Node 15 · powered 5 V CAN</text>
+    <rect
+       class="box"
+       x="645"
+       y="225"
+       width="285"
+       height="100"
+       rx="14"
+       id="rect23" />
+    <text
+       class="head"
+       x="663"
+       y="261"
+       id="text24">Power hub + LED</text>
+    <text
+       class="txt"
+       x="663"
+       y="291"
+       id="text25">Node 14 · 12 V/5 V ports</text>
+    <rect
+       class="nav"
+       x="25"
+       y="378"
+       width="580"
+       height="110"
+       rx="14"
+       id="rect25" />
+    <text
+       class="head"
+       x="43"
+       y="414"
+       id="text26">Navigation controller</text>
+    <text
+       class="txt"
+       x="43"
+       y="446"
+       id="text27">CAN via 5 V hub port · operating power via PoE</text>
+    <text
+       class="small"
+       x="43"
+       y="472"
+       id="text28">SocketCAN client; no separate CANopen node ID</text>
+    <rect
+       class="box"
+       x="645"
+       y="378"
+       width="285"
+       height="110"
+       rx="14"
+       id="rect28" />
+    <text
+       class="head"
+       x="663"
+       y="414"
+       id="text29">Side CAN ports</text>
+    <text
+       class="txt"
+       x="663"
+       y="446"
+       id="text30">2 per side</text>
+    <text
+       class="small"
+       x="663"
+       y="472"
+       id="text31">12 V · GND · CANH · CANL</text>
+    <path
+       class="can"
+       d="M78 200H885"
+       id="path31" />
+    <path
+       class="can"
+       d="M160 172V225M470 172V225M788 172V225M160 325V378M470 325V378M788 325V378"
+       id="path32" />
+    <text
+       class="label"
+       x="280"
+       y="218"
+       id="text32">CAN BACKBONE · 500 kbit/s · verify live IDs, wiring and termination</text>
+  </g>
+  <g
+     transform="translate(40 660)"
+     id="g36">
+    <rect
+       class="box"
+       width="330"
+       height="155"
+       rx="17"
+       id="rect32" />
+    <text
+       class="head"
+       x="20"
+       y="40"
+       id="text33">48 V ROBOT BATTERY</text>
+    <text
+       class="txt"
+       x="20"
+       y="77"
+       id="text34">Main contactor + protection</text>
+    <text
+       class="txt"
+       x="20"
+       y="110"
+       id="text35">2 power ports per side</text>
+    <text
+       class="small"
+       x="20"
+       y="136"
+       id="text36">Separate from CAN ports</text>
+  </g>
+  <text
+     class="label"
+     x="387"
+     y="712.61328"
+     id="text37"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:16px;line-height:normal;font-family:Arial"><tspan
+       sodipodi:role="line"
+       id="tspan50"
+       x="387"
+       y="712.61328">Protected DC</tspan></text>
+  <g
+     transform="translate(530 650)"
+     id="g41">
+    <rect
+       class="box"
+       width="260"
+       height="175"
+       rx="17"
+       id="rect37" />
+    <text
+       class="head"
+       x="20"
+       y="40"
+       id="text38">PoE SWITCH</text>
+    <text
+       class="txt"
+       x="20"
+       y="77"
+       id="text39">Robot-battery powered</text>
+    <text
+       class="txt"
+       x="20"
+       y="110"
+       id="text40">PoE + Ethernet output</text>
+    <text
+       class="small"
+       x="20"
+       y="140"
+       id="text41">Not a CAN node</text>
+  </g>
+  <text
+     class="label"
+     x="820"
+     y="714"
+     id="text42">PoE Ethernet</text>
+  <g
+     transform="translate(940 650)"
+     id="g46">
+    <rect
+       class="nav"
+       width="520"
+       height="175"
+       rx="17"
+       id="rect42" />
+    <text
+       class="head"
+       x="20"
+       y="40"
+       id="text43">SEALED NAVIGATION CONTROLLER</text>
+    <text
+       class="txt"
+       x="20"
+       y="77"
+       id="text44">Factory-packed Pi 5 + camera + PoE module</text>
+    <text
+       class="txt"
+       x="20"
+       y="110"
+       id="text45">External connections: PoE Ethernet + CAN</text>
+    <text
+       class="small"
+       x="20"
+       y="140"
+       id="text46">Do not open or reconnect internal CSI/PoE wiring</text>
+  </g>
+  <g
+     transform="translate(40 865)"
+     id="g49">
+    <rect
+       class="uv"
+       width="1420"
+       height="140"
+       rx="18"
+       id="rect46" />
+    <text
+       class="head"
+       x="20"
+       y="38"
+       id="text47">UVC POWER PATH</text>
+    <text
+       class="txt"
+       x="20"
+       y="73"
+       id="text48">48 V battery → two Victron inverters → relay AC channels → one KTEB-254HO-UV-PS ballast per lamp → four TUV PL-L 55W/4P HF lamps</text>
+    <text
+       class="txt"
+       x="20"
+       y="108"
+       id="text49">Group A: left-side + top-left · Group B: right-side + top-right · only the relay electronics are a CAN node</text>
+  </g>
+  <path
+     class="power"
+     d="M 370,735 H 520"
+     id="path36"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="radio"
+     marker-end="url(#blue)"
+     d="M350 375H490"
+     id="path11"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="radio"
+     marker-end="url(#blue)"
+     d="M350 155H490"
+     id="path6"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="eth"
+     marker-end="url(#green)"
+     d="M790 735H930"
+     id="path41"
+     style="marker-end:url(#Triangle)" />
+</svg>

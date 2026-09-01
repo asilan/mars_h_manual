@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="690"
+   viewBox="0 0 1200 690"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg35"
+   sodipodi:docname="navigation-technician-access.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview35"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1320333"
+     inkscape:cx="284.44392"
+     inkscape:cy="350.69639"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg35" />
+  <title
+     id="title">Navigation controller Wi-Fi and SSH field-technician access</title>
+  <desc
+     id="desc">Six illustrated steps: make the robot safe, join the navigation controller access point, use mars.local, connect as user mars by SSH, inspect services without changing them, and exit.</desc>
+  <rect
+     width="1200"
+     height="690"
+     rx="28"
+     fill="#eef3f6"
+     id="rect1" />
+  <style
+     id="style1">
+    .card{fill:#fff;stroke:#9aadb9;stroke-width:3}.num{fill:#17618f}.nt{fill:#fff;font:700 23px Arial}.head{fill:#16384d;font:700 21px Arial}.txt{fill:#344e5e;font:17px Arial}.code{fill:#102b3a;font:700 16px Consolas,monospace}.line{fill:none;stroke:#17618f;stroke-width:5;marker-end:url(#arrow)}.warn{fill:#fff2d6;stroke:#e7801d;stroke-width:3}
+  </style>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       id="arrow"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0L0 6L9 3z"
+         fill="#17618f"
+         id="path1" />
+    </marker>
+  </defs>
+  <text
+     class="head"
+     x="38"
+     y="42"
+     id="text1">Field-technician access · keep the robot in Hold and UVC physically disconnected</text>
+  <g
+     transform="translate(25 75)"
+     id="g5">
+    <rect
+       class="card"
+       width="350"
+       height="245"
+       rx="16"
+       id="rect2" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="22"
+       id="circle2" />
+    <text
+       class="nt"
+       x="23"
+       y="38"
+       id="text2">1</text>
+    <text
+       class="head"
+       x="65"
+       y="38"
+       id="text3">MAKE SAFE</text>
+    <circle
+       cx="105"
+       cy="118"
+       r="44"
+       fill="#d9e8ef"
+       stroke="#16384d"
+       stroke-width="4"
+       id="circle3" />
+    <path
+       d="M 103.85512,94.416831 V 115.52548 M 89.143034,104.01167 a 21.748305,21.748305 0 1 0 30.063836,0"
+       fill="none"
+       stroke="#c5282d"
+       stroke-width="5.11725"
+       id="path3" />
+    <text
+       class="txt"
+       x="55"
+       y="190"
+       id="text4">Hold · wheels restrained</text>
+    <text
+       class="txt"
+       x="55"
+       y="218"
+       id="text5">UVC supply disconnected</text>
+  </g>
+  <g
+     transform="translate(415 75)"
+     id="g10">
+    <rect
+       class="card"
+       width="350"
+       height="245"
+       rx="16"
+       id="rect5" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="22"
+       id="circle5" />
+    <text
+       class="nt"
+       x="23"
+       y="38"
+       id="text6">2</text>
+    <text
+       class="head"
+       x="65"
+       y="38"
+       id="text7">JOIN WI-FI AP</text>
+    <path
+       d="M95 150q80-75 160 0M125 170q50-45 100 0M160 192q15-14 30 0"
+       fill="none"
+       stroke="#17618f"
+       stroke-width="9"
+       stroke-linecap="round"
+       id="path7" />
+    <text
+       class="code"
+       x="55"
+       y="69"
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:16px;line-height:normal;font-family:Consolas, monospace">SSID: mars_XXXXXX</text>
+    <text
+       class="code"
+       x="55"
+       y="96"
+       id="text9"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:16px;line-height:normal;font-family:Consolas, monospace">Password: alphaaggech</text>
+    <text
+       class="txt"
+       x="55"
+       y="222"
+       id="text10">“No Internet” is normal.</text>
+  </g>
+  <g
+     transform="translate(805 75)"
+     id="g15">
+    <rect
+       class="card"
+       width="370"
+       height="245"
+       rx="16"
+       id="rect10" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="22"
+       id="circle10" />
+    <text
+       class="nt"
+       x="23"
+       y="38"
+       id="text11">3</text>
+    <text
+       class="head"
+       x="65"
+       y="38"
+       id="text12">USE LOCAL NAME</text>
+    <rect
+       x="62"
+       y="86"
+       width="245"
+       height="85"
+       rx="10"
+       fill="#102b3a"
+       id="rect12" />
+    <text
+       x="84"
+       y="128"
+       fill="#8ef0ad"
+       font-family="Consolas"
+       font-size="22"
+       id="text13">mars.local</text>
+    <text
+       class="txt"
+       x="55"
+       y="202"
+       id="text14">Use the AP gateway IP only</text>
+    <text
+       class="txt"
+       x="55"
+       y="227"
+       id="text15">if mDNS does not resolve.</text>
+  </g>
+  <g
+     transform="translate(25 385)"
+     id="g21">
+    <rect
+       class="card"
+       width="350"
+       height="250"
+       rx="16"
+       id="rect15" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="22"
+       id="circle15" />
+    <text
+       class="nt"
+       x="23"
+       y="38"
+       id="text16">4</text>
+    <text
+       class="head"
+       x="65"
+       y="38"
+       id="text17">CONNECT BY SSH</text>
+    <rect
+       x="45"
+       y="82"
+       width="270"
+       height="80"
+       rx="10"
+       fill="#102b3a"
+       id="rect17" />
+    <text
+       x="62"
+       y="118"
+       fill="#8ef0ad"
+       font-family="Consolas"
+       font-size="17"
+       id="text18">ssh mars@mars.local</text>
+    <text
+       x="62"
+       y="146"
+       fill="#8ef0ad"
+       font-family="Consolas"
+       font-size="15"
+       id="text19">verify host fingerprint</text>
+    <text
+       class="txt"
+       x="45"
+       y="205"
+       id="text20">Use the OS-account password,</text>
+    <text
+       class="txt"
+       x="45"
+       y="230"
+       id="text21">not the Wi-Fi password.</text>
+  </g>
+  <g
+     transform="translate(415 385)"
+     id="g28">
+    <rect
+       class="card"
+       width="350"
+       height="250"
+       rx="16"
+       id="rect21" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="22"
+       id="circle21" />
+    <text
+       class="nt"
+       x="23"
+       y="38"
+       id="text22">5</text>
+    <text
+       class="head"
+       x="65"
+       y="38"
+       id="text23">INSPECT</text>
+    <rect
+       x="42"
+       y="78"
+       width="275"
+       height="110"
+       rx="10"
+       fill="#102b3a"
+       id="rect23" />
+    <text
+       x="57"
+       y="106"
+       fill="#8ef0ad"
+       font-family="Consolas"
+       font-size="14"
+       id="text24">hostname -I</text>
+    <text
+       x="57"
+       y="132"
+       fill="#8ef0ad"
+       font-family="Consolas"
+       font-size="14"
+       id="text25">systemctl status camera</text>
+    <text
+       x="57"
+       y="158"
+       fill="#8ef0ad"
+       font-family="Consolas"
+       font-size="14"
+       id="text26">ip -details link show can0</text>
+    <text
+       class="txt"
+       x="42"
+       y="216"
+       id="text27">Record findings before any</text>
+    <text
+       class="txt"
+       x="42"
+       y="239"
+       id="text28">approved service change.</text>
+  </g>
+  <g
+     transform="translate(805 385)"
+     id="g34">
+    <rect
+       class="warn"
+       width="370"
+       height="250"
+       rx="16"
+       id="rect28" />
+    <circle
+       class="num"
+       cx="30"
+       cy="30"
+       r="22"
+       id="circle28" />
+    <text
+       class="nt"
+       x="23"
+       y="38"
+       id="text29">6</text>
+    <text
+       class="head"
+       x="65"
+       y="38"
+       id="text30">EXIT + VERIFY</text>
+    <rect
+       x="70"
+       y="83"
+       width="230"
+       height="68"
+       rx="10"
+       fill="#102b3a"
+       id="rect30" />
+    <text
+       x="92"
+       y="126"
+       fill="#8ef0ad"
+       font-family="Consolas"
+       font-size="21"
+       id="text31">exit</text>
+    <text
+       class="txt"
+       x="50"
+       y="188"
+       id="text32">Close the terminal, then verify:</text>
+    <text
+       class="txt"
+       x="50"
+       y="215"
+       id="text33">Hold · zero motion · service healthy</text>
+    <text
+       class="txt"
+       x="50"
+       y="240"
+       id="text34">web, video, RTK and CAN normal</text>
+  </g>
+  <text
+     class="txt"
+     x="35"
+     y="672"
+     id="text35">XXXXXX is the unit-specific suffix. Never accept an unexpected SSH host-key change until the controller identity is verified.</text>
+  <path
+     class="line"
+     d="M380 198h30"
+     id="path5"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="line"
+     d="M770 198h30"
+     id="path10"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="line"
+     d="M980 325v28H205v28"
+     id="path15"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="line"
+     d="M380 510h30"
+     id="path21"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="line"
+     d="M770 510h30"
+     id="path28"
+     style="marker-end:url(#Triangle)" />
+</svg>

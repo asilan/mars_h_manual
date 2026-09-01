@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="t d">
+  <title id="t">Single Joystick Remote Controller OLED home screen</title><desc id="d">Rendered example of the 128 by 64 monochrome OLED home page.</desc>
+  <rect width="760" height="430" rx="36" fill="#252a2e"/><rect x="52" y="48" width="656" height="334" rx="12" fill="#061b22" stroke="#8fa0a8" stroke-width="4"/>
+  <g fill="#d8fbff" font-family="Consolas,monospace" font-size="30">
+    <text x="76" y="91">[1/4] HOME</text><text x="76" y="136">ROBOT OK</text><text x="76" y="181">ROBOT PWR 82%</text>
+    <text x="76" y="226">RC 4.08V RSSI -67dBm</text><text x="76" y="271">MODE HOLD</text>
+    <text x="76" y="316">CMD L+0.00 T+0.00</text><text x="76" y="361">ACT L+0.00 T+0.00</text>
+  </g>
+</svg>

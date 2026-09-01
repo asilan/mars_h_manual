@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1500 900"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="system-operations-overview.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview32"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.47243125"
+     inkscape:cx="853.03417"
+     inkscape:cy="687.93078"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg32" />
+  <title
+     id="title">Complete robot system operations overview</title>
+  <desc
+     id="desc">A common readiness sequence branches to manual driving, UVC treatment, or autonomous navigation, and all three return to Hold, Off, Disarmed, records saved, and safe shutdown.</desc>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <style
+       id="style1">.bg{fill:#eef3f6}.box{fill:#fff;stroke:#527486;stroke-width:4}.manual{fill:#eaf3f8;stroke:#24577a;stroke-width:4}.uv{fill:#fff0d6;stroke:#d66b18;stroke-width:4}.auto{fill:#e4f4ea;stroke:#287d4c;stroke-width:4}.safe{fill:#e9f6ed;stroke:#287d4c;stroke-width:4}.head{font:700 28px Arial;fill:#17384d}.txt{font:20px Arial;fill:#405967}.small{font:17px Arial;fill:#405967}.arrow{stroke:#355f73;stroke-width:7;fill:none;marker-end:url(#a)}.n{fill:#e87318}.nt{font:700 22px Arial;fill:#fff;text-anchor:middle}</style>
+    <marker
+       id="a"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 12 8"
+       refX="10"
+       refY="4"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0v8l11-4z"
+         fill="#355f73"
+         id="path1" />
+    </marker>
+  </defs>
+  <rect
+     class="bg"
+     width="1500"
+     height="900"
+     rx="30"
+     id="rect1" />
+  <text
+     class="head"
+     x="45"
+     y="55"
+     style="font-size:34px"
+     id="text1">OPERATE THE COMPLETE ROBOT SYSTEM</text>
+  <g
+     transform="translate(430 90)"
+     id="g5">
+    <rect
+       class="box"
+       width="640"
+       height="155"
+       rx="22"
+       id="rect2" />
+    <circle
+       class="n"
+       cx="42"
+       cy="42"
+       r="23"
+       id="circle2" />
+    <text
+       class="nt"
+       x="42"
+       y="50"
+       id="text2">1</text>
+    <text
+       class="head"
+       x="82"
+       y="50"
+       id="text3">COMMON READINESS</text>
+    <text
+       class="txt"
+       x="30"
+       y="92"
+       id="text4">Inspect field and robot · one operator · antennas fitted</text>
+    <text
+       class="txt"
+       x="30"
+       y="124"
+       id="text5">Hold · UVC Off/Disarmed · startup complete · dashboard healthy</text>
+  </g>
+  <g
+     transform="translate(55 350)"
+     id="g13">
+    <rect
+       class="manual"
+       width="390"
+       height="285"
+       rx="22"
+       id="rect5" />
+    <circle
+       class="n"
+       cx="42"
+       cy="42"
+       r="23"
+       id="circle5" />
+    <text
+       class="nt"
+       x="42"
+       y="50"
+       id="text6">2A</text>
+    <text
+       class="head"
+       x="82"
+       y="50"
+       id="text7">MANUAL DRIVING</text>
+    <text
+       class="txt"
+       x="28"
+       y="94"
+       id="text8">Confirm robot link and Manual</text>
+    <text
+       class="txt"
+       x="28"
+       y="130"
+       id="text9">Test forward/reverse/left/right</text>
+    <text
+       class="txt"
+       x="28"
+       y="166"
+       id="text10">Drive in line of sight</text>
+    <text
+       class="txt"
+       x="28"
+       y="202"
+       id="text11">Monitor path, CAN and battery</text>
+    <text
+       class="txt"
+       x="28"
+       y="238"
+       id="text12">Center joystick · select Hold</text>
+    <text
+       class="small"
+       x="28"
+       y="266"
+       id="text13">UVC remains Off and Disarmed</text>
+  </g>
+  <g
+     transform="translate(555 350)"
+     id="g21">
+    <rect
+       class="uv"
+       width="390"
+       height="285"
+       rx="22"
+       id="rect13" />
+    <circle
+       class="n"
+       cx="42"
+       cy="42"
+       r="23"
+       id="circle13" />
+    <text
+       class="nt"
+       x="42"
+       y="50"
+       id="text14">2B</text>
+    <text
+       class="head"
+       x="82"
+       y="50"
+       id="text15">UVC TREATMENT</text>
+    <text
+       class="txt"
+       x="28"
+       y="94"
+       id="text16">Approved dose, speed and geometry</text>
+    <text
+       class="txt"
+       x="28"
+       y="130"
+       id="text17">Establish empty exclusion zone</text>
+    <text
+       class="txt"
+       x="28"
+       y="166"
+       id="text18">Arm · warning · all 6 channels On</text>
+    <text
+       class="txt"
+       x="28"
+       y="202"
+       id="text19">Verify 4 lamps · treat · supervise</text>
+    <text
+       class="txt"
+       x="28"
+       y="238"
+       id="text20">All Off · verify · Disarm · disconnect</text>
+    <text
+       class="small"
+       x="28"
+       y="266"
+       id="text21">Record treatment and lamp hours</text>
+  </g>
+  <g
+     transform="translate(1055 350)"
+     id="g29">
+    <rect
+       class="auto"
+       width="390"
+       height="285"
+       rx="22"
+       id="rect21" />
+    <circle
+       class="n"
+       cx="42"
+       cy="42"
+       r="23"
+       id="circle21" />
+    <text
+       class="nt"
+       x="42"
+       y="50"
+       id="text22">2C</text>
+    <text
+       class="head"
+       x="82"
+       y="50"
+       id="text23">AUTONOMOUS</text>
+    <text
+       class="txt"
+       x="28"
+       y="94"
+       id="text24">Base valid · rover RTK · PoE/CAN</text>
+    <text
+       class="txt"
+       x="28"
+       y="130"
+       id="text25">Draw boundary and route</text>
+    <text
+       class="txt"
+       x="28"
+       y="166"
+       id="text26">Review · upload · confirm Auto</text>
+    <text
+       class="txt"
+       x="28"
+       y="202"
+       id="text27">Slide to Start · supervise</text>
+    <text
+       class="txt"
+       x="28"
+       y="238"
+       id="text28">Complete/Stop · Hold · release control</text>
+    <text
+       class="small"
+       x="28"
+       y="266"
+       id="text29">Save route, track, images and events</text>
+  </g>
+  <g
+     transform="translate(284,750)"
+     id="g32">
+    <rect
+       class="safe"
+       width="932.02893"
+       height="110"
+       rx="22"
+       id="rect29"
+       x="0"
+       y="0" />
+    <circle
+       class="n"
+       cx="42"
+       cy="42"
+       r="23"
+       id="circle29" />
+    <text
+       class="nt"
+       x="42"
+       y="50"
+       id="text30"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:22px;line-height:normal;font-family:Arial">3</text>
+    <text
+       class="head"
+       x="82"
+       y="48"
+       id="text31"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:28px;line-height:normal;font-family:Arial">SAFE END STATE</text>
+    <text
+       class="txt"
+       x="30"
+       y="84"
+       id="text32"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:normal;font-family:Arial">Hold · zero motion · all 6 relay channels Off · 4 lamps Off · Disarmed · records saved · power down</text>
+  </g>
+  <path
+     class="arrow"
+     d="m 750,245 v 65 m 0,0 H 250 v 40 m 500,-40 v 40 m 0,-40 h 500 v 28"
+     id="path5"
+     style="marker-end:url(#Triangle)"
+     sodipodi:nodetypes="cccccccccc" />
+  <path
+     class="arrow"
+     d="m 250,635 v 70 h 500 m 0,-70 v 70 m 500,-70 v 70 H 750 m 0,0 v 33"
+     id="path29"
+     style="marker-end:url(#Triangle)"
+     sodipodi:nodetypes="cccccccccc" />
+</svg>

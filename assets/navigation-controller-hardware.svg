@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="760"
+   viewBox="0 0 1200 760"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="navigation-controller-hardware.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.78819789"
+     inkscape:cx="735.85582"
+     inkscape:cy="313.37308"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g25" />
+  <title
+     id="title">Navigation controller and external robot connections</title>
+  <desc
+     id="desc">The navigation controller includes its Pi camera, Raspberry Pi 5, PoE module, and CAN interface. It connects to the robot PoE switch and to a 5 volt CAN port on the power hub.</desc>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       id="arrow"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0L12 6L0 12Z"
+         fill="#24577a"
+         id="path1" />
+    </marker>
+    <style
+       id="style1">
+      .title{font:700 29px Arial,sans-serif;fill:#153247}.head{font:700 23px Arial,sans-serif;fill:#17384a}.text{font:19px Arial,sans-serif;fill:#405f70}.small{font:16px Arial,sans-serif;fill:#526f7e}
+      .controller{fill:#e9f7ed;stroke:#268653;stroke-width:5}.device{fill:#fff;stroke:#24577a;stroke-width:3}.power{fill:#fff2dc;stroke:#e87318;stroke-width:4}.hub{fill:#edf4fa;stroke:#24577a;stroke-width:4}
+      .line{fill:none;stroke:#24577a;stroke-width:5;marker-end:url(#arrow)}.csi{fill:none;stroke:#9a5b16;stroke-width:5;marker-end:url(#arrow)}.pin{font:15px Consolas,monospace;fill:#27495b}
+    </style>
+  </defs>
+  <rect
+     width="1200"
+     height="760"
+     rx="28"
+     fill="#f2f6f8"
+     id="rect1" />
+  <text
+     x="600"
+     y="48"
+     text-anchor="middle"
+     class="title"
+     id="text1">NAVIGATION CONTROLLER — HARDWARE AND ROBOT CONNECTIONS</text>
+  <g
+     transform="translate(35 105)"
+     id="g4">
+    <rect
+       width="285"
+       height="145"
+       rx="20"
+       class="power"
+       id="rect2" />
+    <text
+       x="142"
+       y="42"
+       text-anchor="middle"
+       class="head"
+       id="text2">ROBOT PoE SWITCH</text>
+    <text
+       x="142"
+       y="78"
+       text-anchor="middle"
+       class="text"
+       id="text3">Powered by robot battery</text>
+    <text
+       x="142"
+       y="108"
+       text-anchor="middle"
+       class="text"
+       id="text4">PoE power + Ethernet</text>
+  </g>
+  <text
+     x="374"
+     y="155"
+     text-anchor="middle"
+     class="small"
+     id="text5">PoE cable</text>
+  <g
+     transform="translate(35 485)"
+     id="g9">
+    <rect
+       width="285"
+       height="190"
+       rx="20"
+       class="hub"
+       id="rect5" />
+    <text
+       x="142"
+       y="42"
+       text-anchor="middle"
+       class="head"
+       id="text6">POWER HUB</text>
+    <rect
+       x="31"
+       y="68"
+       width="223"
+       height="88"
+       rx="13"
+       class="device"
+       id="rect6" />
+    <text
+       x="142"
+       y="99"
+       text-anchor="middle"
+       class="head"
+       id="text7">5 V CAN PORT</text>
+    <text
+       x="142"
+       y="128"
+       text-anchor="middle"
+       class="pin"
+       id="text8">1: 5V  2: CANH</text>
+    <text
+       x="142"
+       y="150"
+       text-anchor="middle"
+       class="pin"
+       id="text9">3: CANL  4: GND</text>
+  </g>
+  <g
+     transform="translate(445 78)"
+     id="g25">
+    <rect
+       width="715"
+       height="625"
+       rx="28"
+       class="controller"
+       id="rect10" />
+    <text
+       x="358"
+       y="48"
+       text-anchor="middle"
+       class="title"
+       id="text11">NAVIGATION CONTROLLER</text>
+    <text
+       x="358"
+       y="78"
+       text-anchor="middle"
+       class="text"
+       id="text12">One assembled robot subsystem</text>
+    <rect
+       x="40"
+       y="110"
+       width="290"
+       height="120"
+       rx="17"
+       class="device"
+       id="rect12" />
+    <text
+       x="185"
+       y="151"
+       text-anchor="middle"
+       class="head"
+       id="text13">PoE MODULE</text>
+    <text
+       x="185"
+       y="183"
+       text-anchor="middle"
+       class="text"
+       id="text14">Operating power</text>
+    <text
+       x="185"
+       y="210"
+       text-anchor="middle"
+       class="text"
+       id="text15">and Ethernet</text>
+    <rect
+       x="385"
+       y="110"
+       width="290"
+       height="120"
+       rx="17"
+       class="device"
+       id="rect15" />
+    <text
+       x="530"
+       y="151"
+       text-anchor="middle"
+       class="head"
+       id="text16">CAN INTERFACE</text>
+    <text
+       x="530"
+       y="183"
+       text-anchor="middle"
+       class="text"
+       id="text17">500 kbit/s</text>
+    <text
+       x="530"
+       y="210"
+       text-anchor="middle"
+       class="text"
+       id="text18">Robot data and mode</text>
+    <rect
+       x="210"
+       y="285"
+       width="300"
+       height="135"
+       rx="18"
+       class="device"
+       id="rect18" />
+    <text
+       x="360"
+       y="332"
+       text-anchor="middle"
+       class="head"
+       id="text19">RASPBERRY PI 5</text>
+    <text
+       x="360"
+       y="366"
+       text-anchor="middle"
+       class="text"
+       id="text20">Navigation · web UI · ROS</text>
+    <text
+       x="360"
+       y="397"
+       text-anchor="middle"
+       class="text"
+       id="text21">Video · storage · CAN data</text>
+    <rect
+       x="210"
+       y="475"
+       width="300"
+       height="105"
+       rx="18"
+       class="power"
+       id="rect21" />
+    <text
+       x="360"
+       y="516"
+       text-anchor="middle"
+       class="head"
+       id="text22">PI CAMERA</text>
+    <circle
+       cx="265"
+       cy="547"
+       r="20"
+       fill="#203743"
+       id="circle22" />
+    <circle
+       cx="265"
+       cy="547"
+       r="9"
+       fill="#8ed7ff"
+       id="circle23" />
+    <text
+       x="395"
+       y="554"
+       text-anchor="middle"
+       class="text"
+       id="text23">Part of controller</text>
+    <path
+       class="line"
+       d="m 185,230 v 24 h 140 v 21"
+       id="path23"
+       style="marker-end:url(#Triangle)"
+       sodipodi:nodetypes="cccc" />
+    <path
+       class="line"
+       d="m 530,230 v 24 H 395 v 21"
+       id="path24"
+       style="marker-end:url(#Triangle)"
+       sodipodi:nodetypes="cccc" />
+    <path
+       class="csi"
+       d="M 360,475 V 428"
+       id="path25"
+       style="marker-end:url(#Triangle)"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="378"
+       y="457"
+       class="small"
+       id="text25">CSI connection</text>
+  </g>
+  <rect
+     x="35"
+     y="710"
+     width="1125"
+     height="34"
+     rx="9"
+     fill="#e6f1f7"
+     id="rect25" />
+  <text
+     x="598"
+     y="734"
+     text-anchor="middle"
+     class="text"
+     id="text26">External connections: robot PoE switch → PoE port • power-hub 5 V CAN port → CAN connector</text>
+  <path
+     class="line"
+     d="M320 178H430"
+     id="path4"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="line"
+     d="M320 580H430"
+     id="path9"
+     style="marker-end:url(#Triangle)" />
+</svg>

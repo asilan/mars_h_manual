@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="920"
+   height="340"
+   viewBox="0 0 920 340"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="manual-camera-buttons.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.71521739"
+     inkscape:cx="460"
+     inkscape:cy="170.57751"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg14" />
+  <title
+     id="title">Camera controls</title>
+  <desc
+     id="desc">Diagram showing recording mode, exposure, frame rate, movement, recording, download, delete, and tap-to-focus/expose controls.</desc>
+  <rect
+     width="920"
+     height="340"
+     rx="18"
+     fill="#eef3ef"
+     id="rect1" />
+  <rect
+     x="56.028011"
+     y="34.028011"
+     width="807.94397"
+     height="256.50934"
+     rx="13.999029"
+     fill="#ffffff"
+     stroke="#d8e1dc"
+     id="rect2"
+     style="stroke-width:1.05602" />
+  <text
+     x="86"
+     y="70"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="800"
+     fill="#172126"
+     id="text2">Camera Panel</text>
+  <g
+     font-family="Arial, sans-serif"
+     font-size="15"
+     font-weight="700"
+     id="g7">
+    <text
+       x="86"
+       y="112"
+       fill="#66737a"
+       id="text3">Recording Mode</text>
+    <rect
+       x="214"
+       y="90"
+       width="560"
+       height="36"
+       rx="8"
+       fill="#f4f7f2"
+       stroke="#d8e1dc"
+       id="rect3" />
+    <text
+       x="232"
+       y="113"
+       fill="#172126"
+       id="text4">Images (12 MP)  ▾</text>
+    <text
+       x="86"
+       y="154"
+       fill="#66737a"
+       id="text5">Exposure</text>
+    <rect
+       x="214"
+       y="145"
+       width="560"
+       height="8"
+       rx="4"
+       fill="#d8e1dc"
+       id="rect5" />
+    <circle
+       cx="565"
+       cy="149"
+       r="12"
+       fill="#3f7ee8"
+       id="circle5" />
+    <text
+       x="86"
+       y="190"
+       fill="#66737a"
+       id="text6">Frame Rate / Min. Movement</text>
+    <rect
+       x="300"
+       y="172"
+       width="474"
+       height="36"
+       rx="8"
+       fill="#f4f7f2"
+       stroke="#d8e1dc"
+       id="rect6" />
+    <text
+       x="318"
+       y="195"
+       fill="#172126"
+       id="text7">Numeric inputs and sliders</text>
+  </g>
+  <g
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="700"
+     text-anchor="middle"
+     id="g10">
+    <rect
+       x="86"
+       y="226"
+       width="210"
+       height="44"
+       rx="8"
+       fill="#1f6f46"
+       id="rect7" />
+    <text
+       x="191"
+       y="254"
+       fill="#fff"
+       id="text8">Start / Stop Recording</text>
+    <rect
+       x="318"
+       y="226"
+       width="210"
+       height="44"
+       rx="8"
+       fill="#4d6874"
+       id="rect8" />
+    <text
+       x="423"
+       y="254"
+       fill="#fff"
+       id="text9">Download Data</text>
+    <rect
+       x="550"
+       y="226"
+       width="210"
+       height="44"
+       rx="8"
+       fill="#c94f3d"
+       id="rect9" />
+    <text
+       x="655"
+       y="254"
+       fill="#fff"
+       id="text10">Delete Images</text>
+  </g>
+  <g
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     id="g14"
+     transform="translate(0,18)">
+    <circle
+       cx="86"
+       cy="298"
+       r="11"
+       fill="none"
+       stroke="#3f7ee8"
+       stroke-width="2"
+       id="circle10" />
+    <line
+       x1="86"
+       y1="291"
+       x2="86"
+       y2="285"
+       stroke="#3f7ee8"
+       stroke-width="2"
+       id="line10" />
+    <line
+       x1="86"
+       y1="305"
+       x2="86"
+       y2="311"
+       stroke="#3f7ee8"
+       stroke-width="2"
+       id="line11" />
+    <line
+       x1="79"
+       y1="298"
+       x2="73"
+       y2="298"
+       stroke="#3f7ee8"
+       stroke-width="2"
+       id="line12" />
+    <line
+       x1="93"
+       y1="298"
+       x2="99"
+       y2="298"
+       stroke="#3f7ee8"
+       stroke-width="2"
+       id="line13" />
+    <text
+       x="112"
+       y="303"
+       font-weight="700"
+       fill="#172126"
+       id="text13">Tap-to-focus/expose:</text>
+    <text
+       x="285"
+       y="303"
+       fill="#4a5560"
+       id="text14">tap the camera view to focus and adjust exposure there (requires control)</text>
+  </g>
+</svg>

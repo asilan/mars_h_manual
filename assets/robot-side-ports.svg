@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="720"
+   viewBox="0 0 1200 720"
+   role="img"
+   aria-labelledby="t d"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="robot-side-ports.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.40310771"
+     inkscape:cx="555.68274"
+     inkscape:cy="449.0115"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg30" />
+  <title
+     id="t">Robot left and right side power and CAN ports</title>
+  <desc
+     id="d">Each side has two contactor-switched battery power ports and two CAN bus ports carrying 12 volts, ground, CAN high, and CAN low. The robot battery also powers the PoE switch.</desc>
+  <rect
+     width="1200"
+     height="720"
+     rx="28"
+     fill="#f3f6f8"
+     id="rect1" />
+  <style
+     id="style1">.h{font:700 27px Arial;fill:#153247}.s{font:18px Arial;fill:#405665}.b{fill:#fff;stroke:#24577a;stroke-width:4}.p{fill:#ffe8dc;stroke:#d85d16;stroke-width:4}.c{fill:#e3f4e9;stroke:#268653;stroke-width:4}.line{stroke:#24577a;stroke-width:5;fill:none;marker-end:url(#m)}</style>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       id="m"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0v6l9-3z"
+         fill="#24577a"
+         id="path1" />
+    </marker>
+  </defs>
+  <text
+     class="h"
+     x="45"
+     y="48"
+     id="text1">Robot external side ports — identical four-port arrangement on LEFT and RIGHT</text>
+  <g
+     transform="translate(55 90)"
+     id="g13">
+    <rect
+       class="b"
+       width="515"
+       height="350"
+       rx="22"
+       id="rect2" />
+    <text
+       class="h"
+       x="24"
+       y="43"
+       id="text2">LEFT SIDE · 4 PORTS</text>
+    <g
+       transform="translate(35 78)"
+       id="g4">
+      <rect
+         class="p"
+         width="200"
+         height="95"
+         rx="14"
+         id="rect3" />
+      <text
+         class="h"
+         x="28"
+         y="40"
+         id="text3">POWER 1</text>
+      <text
+         class="s"
+         x="28"
+         y="72"
+         id="text4">Battery via contactor</text>
+    </g>
+    <g
+       transform="translate(275 78)"
+       id="g6">
+      <rect
+         class="p"
+         width="200"
+         height="95"
+         rx="14"
+         id="rect4" />
+      <text
+         class="h"
+         x="28"
+         y="40"
+         id="text5">POWER 2</text>
+      <text
+         class="s"
+         x="28"
+         y="72"
+         id="text6">Battery via contactor</text>
+    </g>
+    <g
+       transform="translate(35 210)"
+       id="g9">
+      <rect
+         class="c"
+         width="200"
+         height="105"
+         rx="14"
+         id="rect6" />
+      <text
+         class="h"
+         x="31"
+         y="40"
+         id="text7">CAN 1</text>
+      <text
+         class="s"
+         x="20"
+         y="72"
+         id="text8">12V · GND</text>
+      <text
+         class="s"
+         x="20"
+         y="95"
+         id="text9">CANH · CANL</text>
+    </g>
+    <g
+       transform="translate(275 210)"
+       id="g12">
+      <rect
+         class="c"
+         width="200"
+         height="105"
+         rx="14"
+         id="rect9" />
+      <text
+         class="h"
+         x="31"
+         y="40"
+         id="text10">CAN 2</text>
+      <text
+         class="s"
+         x="20"
+         y="72"
+         id="text11">12V · GND</text>
+      <text
+         class="s"
+         x="20"
+         y="95"
+         id="text12">CANH · CANL</text>
+    </g>
+  </g>
+  <g
+     transform="translate(630 90)"
+     id="g24">
+    <rect
+       class="b"
+       width="515"
+       height="350"
+       rx="22"
+       id="rect13" />
+    <text
+       class="h"
+       x="24"
+       y="43"
+       id="text13">RIGHT SIDE · 4 PORTS</text>
+    <g
+       transform="translate(35 78)"
+       id="g15">
+      <rect
+         class="p"
+         width="200"
+         height="95"
+         rx="14"
+         id="rect14" />
+      <text
+         class="h"
+         x="28"
+         y="40"
+         id="text14">POWER 1</text>
+      <text
+         class="s"
+         x="28"
+         y="72"
+         id="text15">Battery via contactor</text>
+    </g>
+    <g
+       transform="translate(275 78)"
+       id="g17">
+      <rect
+         class="p"
+         width="200"
+         height="95"
+         rx="14"
+         id="rect15" />
+      <text
+         class="h"
+         x="28"
+         y="40"
+         id="text16">POWER 2</text>
+      <text
+         class="s"
+         x="28"
+         y="72"
+         id="text17">Battery via contactor</text>
+    </g>
+    <g
+       transform="translate(35 210)"
+       id="g20">
+      <rect
+         class="c"
+         width="200"
+         height="105"
+         rx="14"
+         id="rect17" />
+      <text
+         class="h"
+         x="31"
+         y="40"
+         id="text18">CAN 1</text>
+      <text
+         class="s"
+         x="20"
+         y="72"
+         id="text19">12V · GND</text>
+      <text
+         class="s"
+         x="20"
+         y="95"
+         id="text20">CANH · CANL</text>
+    </g>
+    <g
+       transform="translate(275 210)"
+       id="g23">
+      <rect
+         class="c"
+         width="200"
+         height="105"
+         rx="14"
+         id="rect20" />
+      <text
+         class="h"
+         x="31"
+         y="40"
+         id="text21">CAN 2</text>
+      <text
+         class="s"
+         x="20"
+         y="72"
+         id="text22">12V · GND</text>
+      <text
+         class="s"
+         x="20"
+         y="95"
+         id="text23">CANH · CANL</text>
+    </g>
+  </g>
+  <g
+     transform="translate(75 505)"
+     id="g25">
+    <rect
+       class="p"
+       width="282.57849"
+       height="119.75175"
+       rx="20.345652"
+       id="rect24"
+       x="0.12412399"
+       y="0.12412399" />
+    <text
+       class="h"
+       x="30"
+       y="46"
+       id="text24">ROBOT BATTERY</text>
+    <text
+       class="s"
+       x="30"
+       y="80"
+       id="text25">Protected supply path</text>
+  </g>
+  <g
+     transform="translate(485 505)"
+     id="g27">
+    <rect
+       class="b"
+       width="250"
+       height="120"
+       rx="18"
+       id="rect25" />
+    <text
+       class="h"
+       x="52"
+       y="46"
+       id="text26">PoE SWITCH</text>
+    <text
+       class="s"
+       x="34"
+       y="80"
+       id="text27">Power + Ethernet ports</text>
+  </g>
+  <g
+     transform="translate(895 505)"
+     id="g29">
+    <rect
+       class="c"
+       width="288.0097"
+       height="119.71184"
+       rx="20.736698"
+       id="rect27"
+       x="-38.15379"
+       y="0.14408241" />
+    <text
+       class="h"
+       x="-12"
+       y="46"
+       id="text28"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:27px;line-height:normal;font-family:Arial">NAV CONTROLLER</text>
+    <text
+       class="s"
+       x="11"
+       y="80"
+       id="text29"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial">PoE module input</text>
+  </g>
+  <rect
+     x="80"
+     y="665"
+     width="1040"
+     height="38"
+     rx="9"
+     fill="#ffe1df"
+     id="rect29" />
+  <text
+     x="115"
+     y="691"
+     font-family="Arial"
+     font-size="19"
+     font-weight="700"
+     fill="#9d1b1f"
+     id="text30">DO NOT INTERCHANGE POWER AND CAN PORTS · VERIFY LABEL, PINOUT, VOLTAGE, AND POLARITY</text>
+  <path
+     class="line"
+     d="M 359.24523,565 H 478.67612"
+     id="path25"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="line"
+     d="M 735,565 H 848.1142"
+     id="path27"
+     style="stroke-width:5;stroke-dasharray:none;marker-end:url(#Triangle)" />
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320" role="img" aria-labelledby="title desc">
+  <title id="title">Path planning controls</title>
+  <desc id="desc">Diagram showing field drawing, row settings, GeoTIFF overlay, generate, and clear controls.</desc>
+  <rect width="920" height="320" rx="18" fill="#eef3ef"/>
+  <rect x="46" y="36" width="828" height="248" rx="14" fill="#fff" stroke="#d8e1dc"/>
+  <text x="76" y="72" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#172126">Path Planning Panel</text>
+  <g font-family="Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="76" y="96" width="220" height="152" rx="10" fill="#f4f7f2" stroke="#d8e1dc"/>
+    <text x="96" y="126" fill="#172126">Field</text>
+    <text x="96" y="158" fill="#66737a">☑ Draw Border</text>
+    <text x="96" y="190" fill="#66737a">☑ Draw First Row</text>
+    <rect x="96" y="210" width="160" height="30" rx="8" fill="#4d6874"/><text x="176" y="231" fill="#fff" text-anchor="middle">Overlay Map</text>
+    <rect x="350" y="96" width="220" height="152" rx="10" fill="#f4f7f2" stroke="#d8e1dc"/>
+    <text x="370" y="126" fill="#172126">Rows</text>
+    <text x="370" y="158" fill="#66737a">Rows: 10</text>
+    <text x="370" y="190" fill="#66737a">Spacing: 1 m</text>
+    <text x="370" y="222" fill="#66737a">Speed: 0.5 m/s</text>
+    <rect x="624" y="96" width="220" height="152" rx="10" fill="#f4f7f2" stroke="#d8e1dc"/>
+    <text x="644" y="126" fill="#172126">Operations</text>
+    <rect x="644" y="146" width="160" height="36" rx="8" fill="#1f6f46"/><text x="724" y="170" fill="#fff" text-anchor="middle">Generate</text>
+    <rect x="644" y="198" width="160" height="36" rx="8" fill="#c94f3d"/><text x="724" y="222" fill="#fff" text-anchor="middle">Clear</text>
+  </g>
+</svg>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="680"
+   viewBox="0 0 1200 680"
+   role="img"
+   aria-labelledby="t"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="gps-operation-guide.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs40" />
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.84118811"
+     inkscape:cx="781.03815"
+     inkscape:cy="261.53484"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg40" />
+  <title
+     id="t">GPS base and rover illustrated setup guide</title>
+  <rect
+     width="1200"
+     height="680"
+     rx="28"
+     fill="#f3f6f8"
+     id="rect1" />
+  <style
+     id="style1">.p{fill:#fff;stroke:#24577a;stroke-width:3}.n{fill:#ec7a20}.nt{font:700 23px Arial;fill:#fff}.h{font:700 19px Arial;fill:#153247}.s{font:15px Arial;fill:#405665}.g{fill:#e3f4e9;stroke:#268653;stroke-width:2}.sky{fill:#dff2ff}</style>
+  <text
+     class="h"
+     x="45"
+     y="40"
+     id="text1">RTK GPS base and robot rover — numbered field setup</text>
+  <g
+     transform="translate(30 65)"
+     id="g4">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect2" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle2" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text2">1</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text3">Choose base point</text>
+    <rect
+       class="sky"
+       x="35"
+       y="65"
+       width="200"
+       height="95"
+       id="rect3" />
+    <circle
+       cx="185"
+       cy="95"
+       r="25"
+       fill="#f6c945"
+       id="circle3" />
+    <path
+       d="M135 210V100m-35 110h70"
+       stroke="#24577a"
+       stroke-width="6"
+       id="path3" />
+    <circle
+       cx="135"
+       cy="90"
+       r="18"
+       fill="#fff"
+       stroke="#24577a"
+       stroke-width="3"
+       id="circle4" />
+    <text
+       class="s"
+       x="50"
+       y="240"
+       id="text4">Stable · open sky · never move</text>
+  </g>
+  <g
+     transform="translate(320 65)"
+     id="g8">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect4" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle5" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text5">2</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text6">Connect and power</text>
+    <path
+       d="M70 80v100h130V80"
+       fill="none"
+       stroke="#24577a"
+       stroke-width="5"
+       id="path6" />
+    <circle
+       cx="90"
+       cy="70"
+       r="18"
+       fill="#fff"
+       stroke="#24577a"
+       stroke-width="3"
+       id="circle6" />
+    <path
+       d="M180 80V45"
+       stroke="#24577a"
+       stroke-width="6"
+       id="path7" />
+    <text
+       class="s"
+       x="55"
+       y="215"
+       id="text7">GNSS + LoRa antennas first</text>
+    <text
+       class="s"
+       x="70"
+       y="240"
+       id="text8">Then switch power ON</text>
+  </g>
+  <g
+     transform="translate(610 65)"
+     id="g14">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect8" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle8" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text9">3</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text10">Open base page</text>
+    <g
+       fill="none"
+       stroke="#24577a"
+       stroke-width="7"
+       stroke-linecap="round"
+       id="g12">
+      <path
+         d="M38 115Q90 68 142 115"
+         id="path10" />
+      <path
+         d="M56 138Q90 107 124 138"
+         id="path11" />
+      <path
+         d="M74 158Q90 143 106 158"
+         id="path12" />
+    </g>
+    <circle
+       cx="90"
+       cy="173"
+       r="7"
+       fill="#24577a"
+       id="circle12" />
+    <text
+       class="s"
+       x="87.441727"
+       y="65.154968"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial">mars_gnss_base_xxxxxx</text>
+    <text
+       class="s"
+       x="136.47285"
+       y="86.627815"
+       id="text13"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial">192.168.10.1</text>
+    <rect
+       class="g"
+       x="65"
+       y="185"
+       width="150"
+       height="42"
+       rx="8"
+       id="rect13" />
+    <text
+       class="s"
+       x="84"
+       y="211"
+       id="text14">START SURVEY</text>
+  </g>
+  <g
+     transform="translate(900 65)"
+     id="g18">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect14" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle14" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text15">4</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text16">Wait for valid survey</text>
+    <circle
+       cx="135"
+       cy="130"
+       r="60"
+       fill="none"
+       stroke="#cbd7de"
+       stroke-width="14"
+       id="circle16" />
+    <path
+       d="M135 70a60 60 0 0 1 52 90"
+       fill="none"
+       stroke="#ec7a20"
+       stroke-width="14"
+       id="path16" />
+    <text
+       class="s"
+       x="92"
+       y="135"
+       id="text17">300 sec</text>
+    <rect
+       class="g"
+       x="70"
+       y="210"
+       width="130"
+       height="35"
+       rx="8"
+       id="rect17" />
+    <text
+       class="s"
+       x="92"
+       y="233"
+       id="text18">VALID</text>
+  </g>
+  <g
+     transform="translate(30 355)"
+     id="g22">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect18" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle18" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text19">5</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text20">Power robot rover</text>
+    <rect
+       x="60"
+       y="115"
+       width="150"
+       height="65"
+       rx="10"
+       fill="#d8e1e6"
+       stroke="#24577a"
+       stroke-width="3"
+       id="rect20" />
+    <circle
+       cx="90"
+       cy="190"
+       r="20"
+       fill="#333"
+       id="circle20" />
+    <circle
+       cx="180"
+       cy="190"
+       r="20"
+       fill="#333"
+       id="circle21" />
+    <path
+       d="M135 115V65"
+       stroke="#24577a"
+       stroke-width="6"
+       id="path21" />
+    <circle
+       cx="135"
+       cy="55"
+       r="16"
+       fill="#fff"
+       stroke="#24577a"
+       stroke-width="3"
+       id="circle22" />
+    <text
+       class="s"
+       x="55"
+       y="235"
+       id="text22">Antenna upright · clear sky</text>
+  </g>
+  <g
+     transform="translate(320 355)"
+     id="g29">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect22" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle23" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text23">6</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text24">Open rover page</text>
+    <g
+       fill="none"
+       stroke="#24577a"
+       stroke-width="7"
+       stroke-linecap="round"
+       id="g26">
+      <path
+         d="M38 115Q90 68 142 115"
+         id="path24" />
+      <path
+         d="M56 138Q90 107 124 138"
+         id="path25" />
+      <path
+         d="M74 158Q90 143 106 158"
+         id="path26" />
+    </g>
+    <circle
+       cx="90"
+       cy="173"
+       r="7"
+       fill="#24577a"
+       id="circle26" />
+    <text
+       class="s"
+       x="87.761185"
+       y="66.380592"
+       id="text26"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial">mars_gnss_rover_xxxxxx</text>
+    <text
+       class="s"
+       x="141.42258"
+       y="88.033272"
+       id="text27"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial">192.168.10.1</text>
+    <text
+       class="s"
+       x="55"
+       y="205"
+       id="text28">Select LoRa or NTRIP</text>
+    <text
+       class="s"
+       x="55"
+       y="235"
+       id="text29">Check correction age</text>
+  </g>
+  <g
+     transform="translate(610 355)"
+     id="g33">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect29" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle29" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text30">7</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text31">Wait for RTK</text>
+    <rect
+       x="55"
+       y="80"
+       width="160"
+       height="45"
+       rx="8"
+       fill="#fff0d9"
+       stroke="#ec7a20"
+       stroke-width="2"
+       id="rect31" />
+    <text
+       class="s"
+       x="87"
+       y="108"
+       id="text32">RTK FLOAT</text>
+    <path
+       d="M135 135v35"
+       stroke="#ec7a20"
+       stroke-width="5"
+       id="path32" />
+    <rect
+       class="g"
+       x="55"
+       y="180"
+       width="160"
+       height="45"
+       rx="8"
+       id="rect32" />
+    <text
+       class="h"
+       x="112"
+       y="209"
+       id="text33">RTK</text>
+  </g>
+  <g
+     transform="translate(900 355)"
+     id="g40">
+    <rect
+       class="p"
+       width="270"
+       height="260"
+       rx="16"
+       id="rect33" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="21"
+       id="circle33" />
+    <text
+       class="nt"
+       x="21"
+       y="36"
+       id="text34">8</text>
+    <text
+       class="h"
+       x="58"
+       y="35"
+       id="text35">Verify navigation data</text>
+    <rect
+       x="45"
+       y="75"
+       width="180"
+       height="130"
+       rx="8"
+       fill="#eef3f6"
+       stroke="#24577a"
+       stroke-width="3"
+       id="rect35" />
+    <text
+       class="s"
+       x="65"
+       y="108"
+       id="text36">Fix: RTK</text>
+    <text
+       class="s"
+       x="65"
+       y="138"
+       id="text37">Age: CURRENT</text>
+    <text
+       class="s"
+       x="65"
+       y="168"
+       id="text38">CAN: ONLINE</text>
+    <text
+       class="s"
+       x="65"
+       y="198"
+       id="text39">Position: FRESH</text>
+    <text
+       class="s"
+       x="55"
+       y="240"
+       id="text40">Ready for mission planning</text>
+  </g>
+</svg>

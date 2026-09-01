@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="560"
+   viewBox="0 0 1200 560"
+   role="img"
+   aria-labelledby="t"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="uvc-ppe-warning.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.78346916"
+     inkscape:cx="805.39226"
+     inkscape:cy="362.49034"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg16" />
+  <title
+     id="t">Required UV-C personal protective equipment and exclusion controls</title>
+  <rect
+     width="1200"
+     height="560"
+     rx="28"
+     fill="#fff3e5"
+     id="rect1" />
+  <style
+     id="style1">.h{font:700 27px Arial;fill:#8f1519}.s{font:18px Arial;fill:#3d4e59}.b{fill:#fff;stroke:#c92127;stroke-width:3}.ok{fill:#e5f5eb;stroke:#268653;stroke-width:3}.x{stroke:#c92127;stroke-width:8}.i{fill:#dbe6ec;stroke:#24577a;stroke-width:3}</style>
+  <text
+     class="h"
+     x="45"
+     y="45"
+     id="text1">ROBOT-MOUNTED UV-C LIGHTS — KEEP PEOPLE OUT; PPE REQUIRED FOR AUTHORIZED SERVICE</text>
+  <rect
+     class="b"
+     x="35"
+     y="80"
+     width="350"
+     height="430"
+     rx="18"
+     id="rect2" />
+  <text
+     class="h"
+     x="65"
+     y="120"
+     id="text2">Normal operation</text>
+  <path
+     d="M80 220h260M105 220V145m210 75v-75"
+     stroke="#c92127"
+     stroke-width="7"
+     id="path2" />
+  <text
+     class="h"
+     x="123"
+     y="185"
+     id="text3">NO ENTRY</text>
+  <circle
+     cx="200"
+     cy="325"
+     r="45"
+     fill="#dbe6ec"
+     id="circle3" />
+  <path
+     d="M200 370v95m-55-45h110m-55-50-45 50m45-50 45 50"
+     fill="none"
+     stroke="#24577a"
+     stroke-width="7"
+     id="path3" />
+  <path
+     class="x"
+     d="M120 285l160 180m0-180L120 465"
+     id="path4" />
+  <text
+     class="s"
+     x="72"
+     y="490"
+     id="text4">PPE does not permit occupancy.</text>
+  <rect
+     class="ok"
+     x="420"
+     y="80"
+     width="745"
+     height="430"
+     rx="18"
+     id="rect4" />
+  <text
+     class="h"
+     x="450"
+     y="120"
+     id="text5">Authorized maintenance where exposure may occur</text>
+  <circle
+     class="i"
+     cx="565"
+     cy="225"
+     r="55"
+     id="circle5" />
+  <path
+     d="M520 220q45-45 90 0v35h-90z"
+     fill="#9dd8ee"
+     stroke="#24577a"
+     stroke-width="4"
+     id="path5" />
+  <path
+     d="M505 280h120l-18 110h-84z"
+     fill="#c9e7f3"
+     stroke="#24577a"
+     stroke-width="4"
+     id="path6" />
+  <text
+     class="s"
+     x="470"
+     y="430"
+     id="text6">UV-C-rated goggles</text>
+  <text
+     class="s"
+     x="475"
+     y="455"
+     id="text7">+ face shield as required</text>
+  <g
+     id="g16"
+     transform="translate(32)">
+    <path
+       d="m 735,170 q 55,0 55,55 v 55 H 680 v -55 q 0,-55 55,-55 z"
+       fill="#cddde6"
+       stroke="#24577a"
+       stroke-width="4"
+       id="path7" />
+    <path
+       d="M 680,280 H 790 V 415 H 680 Z"
+       fill="#8ab5ce"
+       stroke="#24577a"
+       stroke-width="4"
+       id="path8" />
+    <path
+       d="m 680,310 -70,90 m 180,-90 70,90"
+       stroke="#24577a"
+       stroke-width="18"
+       id="path9" />
+  </g>
+  <text
+     class="s"
+     x="701"
+     y="450"
+     id="text9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial">Cover all skin:</text>
+  <text
+     class="s"
+     x="676"
+     y="475"
+     id="text10"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial">clothing + UV-rated gloves</text>
+  <path
+     d="M945 175h115v115H945z"
+     fill="#fff"
+     stroke="#24577a"
+     stroke-width="4"
+     id="path10" />
+  <path
+     d="M970 245q32-55 64 0m-48-23q16-28 32 0"
+     fill="none"
+     stroke="#24577a"
+     stroke-width="6"
+     id="path11" />
+  <path
+     d="M945 325h115v80H945z"
+     fill="#fff"
+     stroke="#24577a"
+     stroke-width="4"
+     id="path12" />
+  <text
+     class="s"
+     x="956"
+     y="355"
+     id="text12">LOCK</text>
+  <text
+     class="s"
+     x="952"
+     y="382"
+     id="text13">OUT</text>
+  <text
+     class="s"
+     x="900"
+     y="445"
+     id="text14">Ventilation + lockout</text>
+  <text
+     class="s"
+     x="885"
+     y="470"
+     id="text15">Follow lamp instructions/SOP</text>
+  <text
+     class="s"
+     x="45"
+     y="545"
+     id="text16">Ordinary glasses, sunglasses, sunscreen, or a face shield alone are not verified UV-C protection.</text>
+</svg>

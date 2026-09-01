@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1300"
+   height="900"
+   viewBox="0 0 1300 900"
+   role="img"
+   aria-labelledby="t d"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="system-component-map.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.63837155"
+     inkscape:cx="562.36842"
+     inkscape:cy="480.91115"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg44" />
+  <title
+     id="t">MARS RC Robot System component map</title>
+  <desc
+     id="d">One complete robot product containing controller, mobile robot, RTK GPS, navigation controller, PoE switch, relay, inverters, ballasts, and four UVC lamps.</desc>
+  <rect
+     width="1300"
+     height="900"
+     rx="28"
+     fill="#eef3f6"
+     id="rect1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <style
+       id="style1">.box{fill:#fff;stroke:#547487;stroke-width:3}.nav{fill:#e6f5eb;stroke:#268653;stroke-width:3}.uv{fill:#fff3df;stroke:#e87318;stroke-width:3}.title{fill:#17384d;font:700 24px Arial}.text{fill:#415d6d;font:17px Arial}.link{fill:none;stroke:#175f8f;stroke-width:5;marker-end:url(#a)}.can{fill:none;stroke:#8b5e00;stroke-width:5;marker-end:url(#b)}</style>
+    <marker
+       id="a"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0v6l9-3z"
+         fill="#175f8f"
+         id="path1" />
+    </marker>
+    <marker
+       id="b"
+       markerWidth="60"
+       markerHeight="60"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0v6l9-3z"
+         fill="#8b5e00"
+         id="path2" />
+    </marker>
+  </defs>
+  <text
+     x="40"
+     y="48"
+     class="title"
+     font-size="32"
+     id="text2">ONE PRODUCT · MARS RC ROBOT SYSTEM</text>
+  <g
+     transform="translate(40 85)"
+     id="g7">
+    <rect
+       class="box"
+       width="299.86273"
+       height="180.52759"
+       rx="15.992679"
+       id="rect2"
+       x="0.068634264"
+       y="0.068634264" />
+    <text
+       class="title"
+       x="22"
+       y="42"
+       id="text3">RC CONTROLLERS</text>
+    <text
+       class="text"
+       x="22"
+       y="75"
+       id="text4">Single Joystick / Dual Joystick</text>
+    <text
+       class="text"
+       x="22"
+       y="103"
+       id="text5">Remote Controller</text>
+    <text
+       class="text"
+       x="22"
+       y="131"
+       id="text6">Robot communication LoRa</text>
+    <text
+       class="text"
+       x="22"
+       y="156"
+       id="text7">Dual Joystick: RTK + GPS</text>
+  </g>
+  <text
+     class="text"
+     x="360"
+     y="148"
+     id="text8">RC LoRa</text>
+  <g
+     transform="translate(460 85)"
+     id="g16">
+    <rect
+       class="box"
+       width="350"
+       height="300"
+       rx="16"
+       id="rect8" />
+    <text
+       class="title"
+       x="24"
+       y="44"
+       id="text9">MOBILE ROBOT</text>
+    <text
+       class="text"
+       x="24"
+       y="82"
+       id="text10">2WD / 2WS robot master</text>
+    <text
+       class="text"
+       x="24"
+       y="114"
+       id="text11">Motor nodes 1–4 · emergency</text>
+    <text
+       class="text"
+       x="24"
+       y="146"
+       id="text12">Each side: 2 battery ports</text>
+    <text
+       class="text"
+       x="24"
+       y="178"
+       id="text13">Each side: 2 CAN ports</text>
+    <text
+       class="text"
+       x="24"
+       y="210"
+       id="text14">CAN: 12V · GND · H · L</text>
+    <text
+       class="text"
+       x="24"
+       y="242"
+       id="text15">Battery-powered PoE switch</text>
+    <text
+       class="text"
+       x="24"
+       y="274"
+       id="text16">Power hub + LED · node 14</text>
+  </g>
+  <text
+     class="text"
+     x="835"
+     y="160"
+     id="text17">CAN</text>
+  <g
+     transform="translate(910 85)"
+     id="g25">
+    <rect
+       class="uv"
+       width="340"
+       height="300"
+       rx="16"
+       id="rect17" />
+    <text
+       class="title"
+       x="22"
+       y="44"
+       id="text18">UVC COMPONENTS</text>
+    <text
+       class="text"
+       x="22"
+       y="82"
+       id="text19">CAN relay · node 15 · 5 V hub power</text>
+    <text
+       class="text"
+       x="22"
+       y="114"
+       id="text20">All 6 relay channels together</text>
+    <text
+       class="text"
+       x="22"
+       y="146"
+       id="text21">2 Victron 48/375 inverters</text>
+    <text
+       class="text"
+       x="22"
+       y="178"
+       id="text22">4 Keystone ballasts</text>
+    <text
+       class="text"
+       x="22"
+       y="210"
+       id="text23">4 Philips UVC lamps</text>
+    <text
+       class="text"
+       x="22"
+       y="242"
+       id="text24">Left pair + right pair</text>
+    <text
+       class="text"
+       x="22"
+       y="274"
+       id="text25">Arm · All Off · fail-safe</text>
+  </g>
+  <g
+     transform="translate(40 480)"
+     id="g30">
+    <rect
+       class="box"
+       width="340"
+       height="220"
+       rx="16"
+       id="rect25" />
+    <text
+       class="title"
+       x="22"
+       y="44"
+       id="text26">RTK GPS COMPONENTS</text>
+    <text
+       class="text"
+       x="22"
+       y="82"
+       id="text27">Fixed base → RTK corrections</text>
+    <text
+       class="text"
+       x="22"
+       y="114"
+       id="text28">Robot rover: 5 V CAN hub</text>
+    <text
+       class="text"
+       x="22"
+       y="146"
+       id="text29">RTK LoRa or NTRIP</text>
+    <text
+       class="text"
+       x="22"
+       y="178"
+       id="text30">Corrected position over CAN</text>
+  </g>
+  <text
+     class="text"
+     x="397.22583"
+     y="570"
+     id="text31"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17px;line-height:normal;font-family:Arial">GNSS/CAN</text>
+  <g
+     transform="translate(495 455)"
+     id="g38">
+    <rect
+       class="nav"
+       width="430"
+       height="270"
+       rx="16"
+       id="rect31" />
+    <text
+       class="title"
+       x="24"
+       y="44"
+       id="text32">NAVIGATION CONTROLLER</text>
+    <text
+       class="text"
+       x="24"
+       y="82"
+       id="text33">Raspberry Pi 5 computer inside</text>
+    <text
+       class="text"
+       x="24"
+       y="114"
+       id="text34">Pi camera → Pi 5 CSI port</text>
+    <text
+       class="text"
+       x="24"
+       y="146"
+       id="text35">Operating power + Ethernet: PoE</text>
+    <text
+       class="text"
+       x="24"
+       y="178"
+       id="text36">CAN data: 5 V hub port</text>
+    <text
+       class="text"
+       x="24"
+       y="210"
+       id="text37">Web console · video · photos</text>
+    <text
+       class="text"
+       x="24"
+       y="242"
+       id="text38">Geofence + supervised Auto</text>
+  </g>
+  <path
+     class="can"
+     d="M635 385V445"
+     id="path38"
+     style="marker-end:url(#Triangle)" />
+  <text
+     class="text"
+     x="652"
+     y="425"
+     id="text39">CAN</text>
+  <g
+     transform="translate(995 500)"
+     id="g42">
+    <rect
+       class="box"
+       width="255"
+       height="150"
+       rx="16"
+       id="rect39" />
+    <text
+       class="title"
+       x="34"
+       y="44"
+       id="text40">PoE SWITCH</text>
+    <text
+       class="text"
+       x="23"
+       y="82"
+       id="text41">Powered from robot battery</text>
+    <text
+       class="text"
+       x="23"
+       y="114"
+       id="text42">PoE → navigation controller</text>
+  </g>
+  <path
+     class="link"
+     d="M995 575H935"
+     id="path42"
+     style="marker-end:url(#Triangle)" />
+  <rect
+     x="95"
+     y="790"
+     width="1110"
+     height="70"
+     rx="14"
+     fill="#ffe1df"
+     id="rect42" />
+  <text
+     x="133"
+     y="820"
+     font-family="Arial"
+     font-size="19"
+     font-weight="700"
+     fill="#9d1b1f"
+     id="text43">RADIO PLAN: RC LINK MATCHES ROBOT · RTK LINK MATCHES BASE</text>
+  <text
+     x="133"
+     y="848"
+     font-family="Arial"
+     font-size="19"
+     font-weight="700"
+     fill="#9d1b1f"
+     id="text44">RC AND RTK MUST USE SEPARATE FIELD-APPROVED SETTINGS TO PREVENT INTERFERENCE</text>
+  <path
+     class="link"
+     d="M340 165H450"
+     id="path7"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="can"
+     d="M810 180H900"
+     id="path16"
+     style="marker-end:url(#Triangle)" />
+  <path
+     class="can"
+     d="M380 590H485"
+     id="path30"
+     style="marker-end:url(#Triangle)" />
+</svg>

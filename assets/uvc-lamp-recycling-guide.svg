@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 700"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg39"
+   sodipodi:docname="uvc-lamp-recycling-guide.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs39" />
+  <sodipodi:namedview
+     id="namedview39"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.65275183"
+     inkscape:cx="381.46197"
+     inkscape:cy="323.24689"
+     inkscape:window-width="1512"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g5" />
+  <title
+     id="title">UVC lamp recycling procedure</title>
+  <desc
+     id="desc">Eight numbered illustrations show lockout, base handling, protective packaging, labeling, dry storage, approved recycling, record keeping, and broken-lamp isolation.</desc>
+  <style
+     id="style1">
+    .bg{fill:#f5f8fa}.card{fill:#fff;stroke:#2c6175;stroke-width:3}.n{fill:#e87722}.nt{font:700 22px Arial;fill:#fff;text-anchor:middle}.h{font:700 19px Arial;fill:#173849}.t{font:15px Arial;fill:#344f5c}.line{stroke:#2c6175;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.safe{fill:#dff3e7;stroke:#287a4b;stroke-width:3}.warn{fill:#fff0d6;stroke:#d36b18;stroke-width:3}.danger{fill:#ffe2e2;stroke:#b62929;stroke-width:3}.label{font:700 13px Arial;fill:#173849;text-anchor:middle}
+  </style>
+  <rect
+     class="bg"
+     width="1200"
+     height="700"
+     rx="28"
+     id="rect1" />
+  <text
+     x="50"
+     y="48"
+     class="h"
+     style="font-size:28px"
+     id="text1">Used mercury-containing UVC lamp — safe recycling workflow</text>
+  <g
+     transform="translate(40 80)"
+     id="g5">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect2" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle2" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text2">1</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text3">Isolate and lock out</text>
+    <g
+       id="g40"
+       transform="translate(0,16)">
+      <rect
+         class="danger"
+         x="78"
+         y="72"
+         width="110"
+         height="82"
+         rx="12"
+         id="rect3" />
+      <path
+         class="line"
+         d="M 105,72 V 56 a 28,28 0 0 1 56,0 v 16"
+         id="path3" />
+      <circle
+         cx="133"
+         cy="111"
+         r="8"
+         fill="#b62929"
+         id="circle3" />
+      <path
+         class="line"
+         d="m 133,119 v 18"
+         id="path4" />
+    </g>
+    <text
+       class="t"
+       x="31"
+       y="194"
+       id="text4">Both groups Off · verify</text>
+    <text
+       class="t"
+       x="31"
+       y="216"
+       id="text5">Disarm · disconnect · LOTO</text>
+  </g>
+  <g
+     transform="translate(325 80)"
+     id="g9">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect5" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle5" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text6">2</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text7">Hold only the base</text>
+    <path
+       class="line"
+       d="M74 104h95m-95 25h95M169 91h28v51h-28zM74 104c-17 0-17 25 0 25"
+       id="path7" />
+    <path
+       d="M53 160c18-25 42-22 62 0l-13 24H62z"
+       fill="#6aa8c2"
+       id="path8" />
+    <text
+       class="t"
+       x="31"
+       y="210"
+       id="text8">Do not twist, bend, or press</text>
+    <text
+       class="t"
+       x="31"
+       y="232"
+       id="text9">the glass tubes.</text>
+  </g>
+  <g
+     transform="translate(610 80)"
+     id="g14">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect9" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle9" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text10">3</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text11">Package immediately</text>
+    <path
+       class="warn"
+       d="M48 104l40-28h129v93H88l-40-27z"
+       id="path11" />
+    <path
+       class="line"
+       d="M88 76v93m-40-65h40"
+       id="path12" />
+    <path
+       class="line"
+       d="M110 112h76m-76 21h76"
+       id="path13" />
+    <text
+       class="t"
+       x="31"
+       y="210"
+       id="text13">Original carton or rigid, closed,</text>
+    <text
+       class="t"
+       x="31"
+       y="232"
+       id="text14">cushioned lamp container.</text>
+  </g>
+  <g
+     transform="translate(895 80)"
+     id="g20">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect14" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle14" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text15">4</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text16">Label the container</text>
+    <path
+       class="safe"
+       d="M61 81h145v92H61z"
+       id="path16" />
+    <circle
+       cx="82"
+       cy="103"
+       r="8"
+       fill="#fff"
+       stroke="#287a4b"
+       stroke-width="3"
+       id="circle16" />
+    <text
+       class="label"
+       x="133"
+       y="124"
+       id="text17">UNIVERSAL WASTE</text>
+    <text
+       class="label"
+       x="133"
+       y="144"
+       id="text18">USED LAMPS</text>
+    <text
+       class="t"
+       x="31"
+       y="210"
+       id="text19">Add start date, model, quantity</text>
+    <text
+       class="t"
+       x="31"
+       y="232"
+       id="text20">and responsible work area.</text>
+  </g>
+  <g
+     transform="translate(40 365)"
+     id="g26">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect20" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle20" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text21">5</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text22">Store dry and protected</text>
+    <path
+       class="line"
+       d="M55 95h155v79H55zM44 95h177l-18-26H62z"
+       id="path22" />
+    <path
+       d="M128 86c22 25 8 41-8 41s-30-16-8-41l8-12z"
+       fill="#6aa8c2"
+       id="path23" />
+    <path
+       class="danger"
+       d="M87 138h92v26H87z"
+       id="path24" />
+    <text
+       class="label"
+       x="133"
+       y="156"
+       id="text24">NO IMPACT</text>
+    <text
+       class="t"
+       x="31"
+       y="210"
+       id="text25">Away from traffic, weather,</text>
+    <text
+       class="t"
+       x="31"
+       y="232"
+       id="text26">vehicles and new lamps.</text>
+  </g>
+  <g
+     transform="translate(325 365)"
+     id="g30">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect26" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle26" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text27">6</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text28">Approved recycler</text>
+    <circle
+       class="safe"
+       cx="133"
+       cy="123"
+       r="58"
+       id="circle28" />
+    <path
+       d="M133 73l18 30h-13c19 11 25 29 15 47l-17-10c4-8 1-15-8-21h-13zm-49 66l18-30 7 12c0-21 13-35 34-35v20c-9 0-15 6-15 17l7 12zm90 0h-35l7-12c-18 10-37 5-47-13l17-10c5 8 13 10 23 5l7-12z"
+       fill="#287a4b"
+       id="path28" />
+    <text
+       class="t"
+       x="31"
+       y="210"
+       id="text29">EHS confirms recycler, pickup,</text>
+    <text
+       class="t"
+       x="31"
+       y="232"
+       id="text30">transport and acceptance.</text>
+  </g>
+  <g
+     transform="translate(610 365)"
+     id="g34">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect30" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle30" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text31">7</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text32">Record the transfer</text>
+    <rect
+       class="safe"
+       x="75"
+       y="72"
+       width="116"
+       height="111"
+       rx="8"
+       id="rect32" />
+    <path
+       class="line"
+       d="M101 101h65m-65 25h65m-65 25h42"
+       id="path32" />
+    <path
+       class="line"
+       d="M115 65h36v19h-36z"
+       id="path33" />
+    <text
+       class="t"
+       x="31"
+       y="210"
+       id="text33">Robot, position, hours, date,</text>
+    <text
+       class="t"
+       x="31"
+       y="232"
+       id="text34">container and recycler receipt.</text>
+  </g>
+  <g
+     transform="translate(895 365)"
+     id="g39">
+    <rect
+       class="card"
+       width="265"
+       height="255"
+       rx="18"
+       id="rect34" />
+    <circle
+       class="n"
+       cx="28"
+       cy="28"
+       r="19"
+       id="circle34" />
+    <text
+       class="nt"
+       x="28"
+       y="36"
+       id="text35">8</text>
+    <text
+       class="h"
+       x="56"
+       y="34"
+       id="text36">If glass breaks</text>
+    <path
+       class="danger"
+       d="M52 77h162v105H52z"
+       id="path36" />
+    <path
+       class="line"
+       d="M77 96l38 29-24 34m100-63l-38 29 24 34m-48-67l7 25-16 13 25 10"
+       id="path37" />
+    <path
+       d="M72 168h122"
+       stroke="#b62929"
+       stroke-width="7"
+       stroke-dasharray="12 8"
+       id="path38" />
+    <text
+       class="t"
+       x="31"
+       y="210"
+       id="text38">Cordon off; do not vacuum or</text>
+    <text
+       class="t"
+       x="31"
+       y="232"
+       id="text39">sweep; follow spill procedure.</text>
+  </g>
+</svg>
